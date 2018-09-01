@@ -1,0 +1,53 @@
+.r_nav{
+    width: 314px;
+    height:494px;
+    background:url("../img/r_navBg.png")no-repeat top center;
+    position: fixed;
+    top: 310px;
+    right: -8px;
+    margin-right: -60px;
+    z-index: 3;
+}
+.r_dj{
+    width: 165px;
+    height:145px;
+    background: url("../img/r_dj.png")no-repeat;
+    z-index: 2;
+    top: 27px;
+    left: 24px;
+}
+.r_dj span{
+    display: block;
+    top: 33px;
+    left:11px;
+    width: 88px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #62401b;
+    overflow: hidden;
+    line-height: 18px;
+}
+.r_code{
+    width:117px;
+    height:113px;
+    background: url("../img/r_code.jpg")no-repeat;
+
+}
+.r_burst{
+    width: 117px;
+    height:38px;
+    background: url("../img/r_all.png")no-repeat 0px -119px;
+}
+.r_assistant{
+    width:117px;
+    height: 38px;
+    background: url("../img/r_all.png")no-repeat 0px -158px;
+}
+.r_con{
+    top:169px;
+    left: 45px;
+}
+.container{
+    width:1900px;
+}

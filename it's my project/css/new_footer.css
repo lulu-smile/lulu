@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color:#7d81b2;
+    font-size: 16px;
+}
+div.footer{
+    width: 1920px;
+    text-align: center;
+    background: rgba(0,0,0);
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.f_t a{
+    margin: 0 10px 0 5px ;
+}
+.f_t span{
+    color:#7d81b2;
+}
+ul li:first-child{
+    color: #a59e94;
+}

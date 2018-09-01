@@ -1,0 +1,39 @@
+/*reset*/
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form{
+    margin:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#363636;
+}
+a:hover{
+    text-decoration: none;
+}
+button,input,select,textarea{
+    font-size: 100%;
+    outline: none;
+}
+/*common*/
+.pr{
+    position:relative;
+}
+.pa{
+    position: absolute;
+}
+.clearfix:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.container{
+    min-width:1290px ;
+}

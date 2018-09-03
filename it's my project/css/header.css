@@ -379,9 +379,14 @@ ul{
 	margin:7px 9px 26px 0;
 	position:relative;
 }
+/*放大效果*/
 .item_center img{
 	width:209px;
 	height:125px;
+    transition: 1s linear;
+}
+.item_center img:hover{
+    transform: scale(1.05);
 }
 .item_center span{
 	width:189px;
@@ -437,6 +442,9 @@ ul{
     background: rgba(0,0,0,0.88);
     text-align: center;
     color:#f3c258;
+}
+.hreo_pic_list .a1{
+    height:173px;
 }
 /*新皮肤*/
 .new_skin2{

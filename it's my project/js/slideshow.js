@@ -31,7 +31,7 @@
 		//console.log(timer)
 	})
 	//Ӣ�� Ƥ�� ��
-	$("div.skin_center>.item_sub>a").hover(function(){
+	$("div.skin_center>.item_sub>a,#newsTap>ul>li>a").hover(function(){
 		var $btn=$(this);
 		var id=$btn.attr("href");
 		$(id).show().siblings().hide();

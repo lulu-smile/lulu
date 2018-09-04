@@ -74,6 +74,58 @@ div.header>.nav_top .close{
     margin-left: -150px;
     background: url("../img2/login.jpg");
 }
+/* å¾®ä¿¡ç™»å½• */
+div.header>.nav_top .wx{
+    width:350px;
+    height:480px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    z-index: 990;
+    text-align: center;
+    color: #f2d2a2;
+    display: none;
+    background:rgba(0, 0, 0, 0.7); 
+    color: #C39B5E;
+}
+div.wx .closex{
+    position: absolute;
+    top:3px;
+    right: 10px;
+    color: white;
+}
+div.wx h1{
+    margin-top: 35px;
+    
+}
+div.wx div{
+    width: 300px;
+    height:300px;
+    line-height:300px;
+    border: 1px solid #E2E2E2;
+    margin-left: 21px;
+    border-bottom: none;
+    margin-top: 20px;
+}
+div.header>.nav_top .wx img{
+    width:280px;
+    height:280px;
+    vertical-align: middle;
+}
+/* è´¦å·ç™»å½•/æ³¨å†Œ */
+div.header>.nav_top .zh{
+    background: white;
+    width: 380px;
+    height:300px;
+    border:1px solid black;
+    z-index: 999;
+    position: fixed;
+    top:50%;
+    left:50%;
+    text-align: center;
+}
 div.header>.nav_top .close .closex{
     width: 40px;
     height: 40px;
@@ -105,8 +157,8 @@ div.header>.nav_top .close .qqlogin{
     text-indent: -9999em;
     overflow: hidden;
 }
-/*ÄÚÈÝsection*/
-/*¶þ¼¶²Ëµ¥*/
+/*ï¿½ï¿½ï¿½ï¿½section*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½*/
 .sub_header{
     width: 1900px;
     position: fixed;
@@ -159,7 +211,7 @@ div.header>.nav_top .close .qqlogin{
 .scrollDis{
     top: 0 ;
 }
-/*ÌåÑéËµÃ÷*/
+/*ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½*/
 .wrap1{
     width: 1200px;
     margin: 0 auto;
@@ -245,7 +297,7 @@ div.header>.nav_top .close .qqlogin{
     top: 610px;
     left: 344px;
 }
-/*¼¼ÄÜÄ£¿éheroSkillIntro*/
+/*ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½heroSkillIntro*/
 .s_top{
     width: 1200px;
     color: #c39b5e;

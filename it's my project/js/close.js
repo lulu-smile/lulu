@@ -6,3 +6,12 @@ $(function(){
         $(".close").hide();
     })
 })
+$(function(){
+    $(".wxlogin").click(function(){
+        $(".wx").show();
+        $(".close").hide();
+    })
+    $(".closex").click(function(){
+        $(".wx").hide();
+    })
+})

@@ -15,3 +15,12 @@ $(function(){
         $(".wx").hide();
     })
 })
+$(function(){
+    $(".qqlogin").click(function(){
+        $(".zh").show();
+        $(".close").hide();
+    })
+    $(".closex").click(function(){
+        $(".zh").hide();
+    })
+})

@@ -116,7 +116,7 @@ div.header>.nav_top .wx img{
 }
 /* 账号登录/注册 */
 div.header>.nav_top .zh{
-    background: white;
+    background:rgba(255, 255, 255, 0.9);
     width: 380px;
     height:300px;
     border:1px solid black;
@@ -125,6 +125,29 @@ div.header>.nav_top .zh{
     top:50%;
     left:50%;
     text-align: center;
+    display: none;
+}
+div.zh>a{
+   margin-left:330px;
+   margin-top: 10px;
+}
+div.zh>h3>a{
+    color:green;
+    font-weight: 700;    
+}
+div.zh input{
+    margin-top: 10px;
+    display: block;
+    width:235px;
+    height:35px;
+    margin-left: 69px;
+    border-radius: 8px;
+}
+div.zh div:last-child{
+    margin-top:20px;
+}
+div.zh div:last-child span{
+    margin-right: 5px;
 }
 div.header>.nav_top .close .closex{
     width: 40px;

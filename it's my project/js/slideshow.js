@@ -36,4 +36,14 @@
 		var id=$btn.attr("href");
 		$(id).show().siblings().hide();
 	})
+	$("div.item_subnav a").hover(function(){
+		var $btn=$(this);
+		var id=$btn.attr("href");
+		$(id).show().siblings().hide();
+	})
+	$(".item_header2 a").hover(function(){
+		var $btn=$(this);
+		var id=$btn.attr("href");
+		$(id).show().siblings().hide();
+	})
 })();

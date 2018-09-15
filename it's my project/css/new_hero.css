@@ -124,6 +124,8 @@ div.header>.nav_top .zh{
     position: fixed;
     top:50%;
     left:50%;
+    margin-top: -150px;
+    margin-left: -190px;
     text-align: center;
     display: none;
 }
@@ -212,16 +214,31 @@ div.header>.nav_top .close .qqlogin{
 }
 .sub_list li a{
     display: block;
+    width:70px;
     line-height: 70px;
     font-size: 14px;
     color: #a59e94;
     margin-right: 70px;
+    position: relative;
+}
+.sub_list li a:after{
+    content: "";
+    width:0;
+    height:2px;
+    background: #c39b5e;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transition: all .8s;
 }
 .sub_list li a:hover{
     color: #c39b5e;
     font-weight: bold;
 }
-
+.sub_list li a:hover:after{
+    left: 0%;
+    width: 100%;
+}
 .sub_text .titF{
     font-size: 14px;
     color: #c39b5e;
